@@ -1,0 +1,22 @@
+{
+    "blogs":[
+        {
+            "title":"Some useless Blog content",
+            "body":"Why are you building\n websites while you are ab\n actuary?",
+            "id":1,
+            "author":"Hosea Kipkoech"
+        },
+        {
+            "title":"My Second unimportant Blog",
+            "body":"Why are you building\n websites while you are ab\n actuary?",
+            "id":2,
+            "author":"Kelvin Kinuthia"
+        },
+        {
+            "title":"My first Blog",
+            "body":"Why are you building\n websites while you are ab\n actuary?",
+            "id":3,
+            "author":"Andrew Tate"
+        }
+    ]
+}
