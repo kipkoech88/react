@@ -1,20 +1,20 @@
 {
     "blogs":[
         {
-            "title":"Some useless Blog content",
-            "body":"Why are you building\n websites while you are ab\n actuary?",
+            "title":"Debugging React applications",
+            "body":"A large part of a typical developer's time is spent on debugging and reading existing code. Every now and then we do get to write a line or two of new code, but a large part of our time is spent trying to figure out why something is broken or how something works. Good practices and tools for debugging are extremely important for this reason\n Lucky for us, React is an extremely developer-friendly library when it comes to debugging\n Before we move on, let us remind ourselves of one of the most important rules of web development\n\n don't write more code but rather find and fix the problem immediately. There has yet to be a moment in the history of coding where code that fails to compile would miraculously start working after writing large amounts of additional code. I highly doubt that such an event will transpire during this course either.",
             "id":1,
             "author":"Hosea Kipkoech"
         },
         {
-            "title":"My Second unimportant Blog",
-            "body":"Why are you building\n websites while you are ab\n actuary?",
+            "title":"Old React",
+            "body":"n this course, we use the state hook to add state to our React components, which is part of the newer versions of React and is available from version 16.8.0 onwards. Before the addition of hooks, there was no way to add state to functional components. Components that required state had to be defined as class components, using the JavaScript class syntax\n\n In this course, we have made the slightly radical decision to use hooks exclusively from day one, to ensure that we are learning the current and future variations of React. Even though functional components are the future of React, it is still important to learn the class syntax, as there are billions of lines of legacy React code that you might end up maintaining someday. The same applies to documentation and examples of React that you may stumble across on the internet.",
             "id":2,
             "author":"Kelvin Kinuthia"
         },
         {
-            "title":"My first Blog",
-            "body":"Why are you building\n websites while you are ab\n actuary?",
+            "title":"Rules of Hooks",
+            "body":"There are a few limitations and rules we have to follow to ensure that our application uses hooks-based state functions correctly\n\n The useState function (as well as the useEffect function introduced later on in the course) must not be called from inside of a loop, a conditional expression, or any place that is not a function defining a component. This must be done to ensure that the hooks are always called in the same order, and if this isn't the case the application will behave erratically\n\n To recap, hooks may only be called from the inside of a function body that defines a React component:\n\n Event handling has proven to be a difficult topic in previous iterations of this course.",
             "id":3,
             "author":"Andrew Tate"
         }
